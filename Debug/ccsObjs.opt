@@ -1,0 +1,1 @@
+-l"./configPkg/linker.cmd" "./src/kernel/devices/watchdog.obj" "./src/kernel/devices/uart.obj" "./src/kernel/devices/led.obj" "./src/main.obj" -l"libc.a" -l"F:\Program Files\Texas Instruments\ccsv5.2.1\ccsv5\tools\compiler\tms470_4.9.5\lib\rtsv7M3_T_le_eabi.lib" -l"F:\StellarisWare\driverlib\ccs-cm3\Debug\driverlib-cm3.lib" "../lm3s6965.cmd" 
